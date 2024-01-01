@@ -40,7 +40,7 @@ function HeroHome() {
             </h1>
             <div className="max-w-3xl mx-auto">
               <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">
-                Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.
+              Gateway to Igboora, the world home of twins.
               </p>
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
                 <div>
