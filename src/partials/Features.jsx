@@ -33,8 +33,8 @@ function Features() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h2 mb-4">Explore the solutions</h1>
-            <p className="text-xl text-gray-600">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.</p>
+            <h1 className="h2 mb-4">THE BEAUTIFUL TOWN</h1>
+            <p className="text-xl text-gray-600"> Babalokuta /Sekere Town is located along Abeokuta-Igboora Express Way. It falls under Iberekodo Community in Ibarapa Central Local Government, Igboora, Oyo State, Nigeria. Babalokuta/Sekere comprises of 22 villages. These include, Sangoloni Babalola, Inanku, Asapa, Ogbon Omisola, Jagun I, Jagun II, Baba pupa, Babalokuta/Sekere, Adeniyi, Iseme, Alanwa. Mogaji. Atoko, Ezekiel, Apasi- Oniro, Akinwumi, Otun, Ajiyo, Omisosoro, Eniayewu. Ajegunle  and Asipa.</p>
           </div>
 
           {/* Section content */}
@@ -43,8 +43,8 @@ function Features() {
             {/* Content */}
             <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6" data-aos="fade-right">
               <div className="md:pr-4 lg:pr-12 xl:pr-16 mb-8">
-                <h3 className="h3 mb-3">Powerful suite of tools</h3>
-                <p className="text-xl text-gray-600">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
+                <h3 className="h3 mb-3">LET’S TALK BUSINESS.</h3>
+                <p className="text-xl text-gray-600">AREAS OF ECONOMIC ADVANTAGE.</p>
               </div>
               {/* Tabs buttons */}
               <div className="mb-8 md:mb-0">
