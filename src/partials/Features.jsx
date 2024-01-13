@@ -3,6 +3,13 @@ import Transition from '../utils/Transition';
 
 import FeaturesBg from '../images/features-bg.png';
 import FeaturesElement from '../images/features-element.png';
+import agroBussiness from '../images/agroBusinessImg.jpg';
+import tourism from "../images/tourism.png";
+import infrastructure from '../images/infrastructure.png';
+import realEstate from '../images/real estate.png';
+import manufacturing from '../images/manufacturing.webp';
+import economy from '../images/economy.webp';
+import religiousInstitution from '../images/mosque-church.png';
 import { Link } from 'react-router-dom';
 
 function Features() {
@@ -45,8 +52,8 @@ function Features() {
               </div>
           <div className="md:grid md:grid-cols-12 md:gap-6">
           {/* Tabs items */}
-          <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1" data-aos="zoom-y-out" ref={tabs}>
-              <div className="relative flex flex-col text-center lg:text-right lg:mt-32">
+          <div className="h-64 max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1" data-aos="zoom-y-out" ref={tabs}>
+              <div className=" h-full relative flex flex-col text-center lg:text-right lg:mt-32">
                 {/* Item 1 */}
                 <Transition
                   show={tab === 1}
@@ -59,9 +66,8 @@ function Features() {
                   leaveStart="opacity-100 translate-y-0"
                   leaveEnd="opacity-0 -translate-y-16"
                 >
-                  <div className="relative inline-flex flex-col">
-                    <img className="md:max-w-none mx-auto rounded" src={FeaturesBg} width="500" height="462" alt="Features bg" />
-                    <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement} width="500" height="44" alt="Element" style={{ top: '30%' }} />
+                  <div className="relative inline-flex flex-col ">
+                    <img className="md:max-w-none mx-auto rounded " src={agroBussiness} width="500" height="462" alt="Features bg" />
                   </div>
                 </Transition>
                 {/* Item 2 */}
@@ -77,8 +83,7 @@ function Features() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col">
-                    <img className="md:max-w-none mx-auto rounded" src={FeaturesBg} width="500" height="462" alt="Features bg" />
-                    <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement} width="500" height="44" alt="Element" style={{ top: '30%' }} />
+                    <img className="md:max-w-none mx-auto rounded" src={tourism} width="500" height="462" alt="Features bg" />
                   </div>
                 </Transition>
                 {/* Item 3 */}
@@ -94,8 +99,7 @@ function Features() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col">
-                    <img className="md:max-w-none mx-auto rounded" src={FeaturesBg} width="500" height="462" alt="Features bg" />
-                    <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement} width="500" height="44" alt="Element" style={{ top: '30%' }} />
+                    <img className="md:max-w-none mx-auto rounded" src={realEstate} width="500" height="462" alt="Features bg" />
                   </div>
                 </Transition>
                 {/* Item 4 */}
@@ -111,8 +115,7 @@ function Features() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col">
-                    <img className="md:max-w-none mx-auto rounded" src={FeaturesBg} width="500" height="462" alt="Features bg" />
-                    <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement} width="500" height="44" alt="Element" style={{ top: '30%' }} />
+                    <img className="md:max-w-none mx-auto rounded" src={manufacturing} width="500" height="462" alt="Features bg" />
                   </div>
                 </Transition>
                 {/* Item 5 */}
@@ -128,8 +131,7 @@ function Features() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col">
-                    <img className="md:max-w-none mx-auto rounded" src={FeaturesBg} width="500" height="462" alt="Features bg" />
-                    <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement} width="500" height="44" alt="Element" style={{ top: '30%' }} />
+                    <img className="md:max-w-none mx-auto rounded" src={infrastructure} width="500" height="462" alt="Features bg" />
                   </div>
                 </Transition>
                 {/* Item 6 */}
@@ -145,8 +147,7 @@ function Features() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col">
-                    <img className="md:max-w-none mx-auto rounded" src={FeaturesBg} width="500" height="462" alt="Features bg" />
-                    <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement} width="500" height="44" alt="Element" style={{ top: '30%' }} />
+                    <img className="md:max-w-none mx-auto rounded" src={economy} width="500" height="462" alt="Features bg" />
                   </div>
                 </Transition>
                 {/* Item 7 */}
@@ -162,8 +163,7 @@ function Features() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col">
-                    <img className="md:max-w-none mx-auto rounded" src={FeaturesBg} width="500" height="462" alt="Features bg" />
-                    <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement} width="500" height="44" alt="Element" style={{ top: '30%' }} />
+                    <img className="md:max-w-none mx-auto rounded" src={religiousInstitution} width="500" height="256" alt="Features bg" />
                   </div>
                 </Transition>
               </div>
@@ -174,16 +174,15 @@ function Features() {
             
 
               {/* Tabs buttons */}
-              <div className="mb-8 md:mb-0 md:max-w-xl grid grid-cols-2 gap-3">
+              <div className="bg-green-300 mb-8 md:mb-0 md:max-w-2xl grid grid-cols-2 gap-3">
                 <a
-                  className={`flex justify-between items-center text-lg p-5 rounded border transition duration-300 ease-in-out md:mb-3 ${tab !== 1 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
+                  className={`flex justify-between items-center text-sm sm:text-lg sm:p-5 rounded border transition duration-300 ease-in-out mb-0 md:mb-3 ${tab !== 1 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
                   href="#0"
                   onClick={(e) => { e.preventDefault(); setTab(1); }}
                 >
-                  <div className=' flex gap-2'>
-                    <div className="font-bold leading-snug tracking-tight mb-1 ">AGRO BUSINESS</div>
-                    <div className="text-gray-600 bg-white">
-                      
+                  <div className=' flex gap-2  '>
+                    <div className="font-bold  leading-snug tracking-tight sm:mb-1 ">AGRO BUSINESS</div>
+                    <div className="text-gray-600 bg-white">                     
                     </div>
                   </div>
                  {  <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
@@ -193,7 +192,7 @@ function Features() {
                   </div> }
                 </a>
                 <a
-                  className={`flex justify-between items-center text-lg p-5 rounded border transition duration-300 ease-in-out md:mb-3 ${tab !== 2 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
+                  className={`flex justify-between items-center text-sm sm:text-lg sm:p-5 rounded border transition duration-300 ease-in-out mb-0 md:mb-3 ${tab !== 2 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
                   href="#0"
                   onClick={(e) => { e.preventDefault(); setTab(2); }}
                 >
@@ -209,7 +208,7 @@ function Features() {
 
                 </a>
                 <a
-                  className={`flex justify-between items-center text-lg p-5 rounded border transition duration-300 ease-in-out md:mb-3 ${tab !== 3 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
+                  className={`flex justify-between items-center text-sm sm:text-lg sm:p-5 rounded border transition duration-300 ease-in-out md:mb-3 ${tab !== 3 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
                   href="#0"
                   onClick={(e) => { e.preventDefault(); setTab(3); }}
                 >
@@ -224,7 +223,7 @@ function Features() {
                   </div>
                 </a>
                 <a
-                  className={`flex justify-between items-center text-lg p-5 rounded border transition duration-300 ease-in-out md:mb-3 ${tab !== 4 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
+                  className={`flex justify-between items-center text-sm sm:text-lg sm:p-5 rounded border transition duration-300 ease-in-out md:mb-3 ${tab !== 4 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
                   href="#0"
                   onClick={(e) => { e.preventDefault(); setTab(4); }}
                 >
@@ -239,7 +238,7 @@ function Features() {
                   </div>
                 </a>
                 <a
-                  className={`flex justify-between items-center text-lg p-5 col-span-2 rounded border transition duration-300 ease-in-out md:mb-3 ${tab !== 5 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
+                  className={`flex justify-between items-center text-sm sm:text-lg sm:p-5 col-span-2 rounded border transition duration-300 ease-in-out md:mb-3 ${tab !== 5 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
                   href="#0"
                   onClick={(e) => { e.preventDefault(); setTab(5); }}
                 >
@@ -254,7 +253,7 @@ function Features() {
                   </div>
                 </a>
                 <a
-                  className={`flex justify-between items-center text-lg p-5 col-span-2 rounded border transition duration-300 ease-in-out md:mb-3 ${tab !== 6 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
+                  className={`flex justify-between items-center text-sm sm:text-lg sm:p-5 col-span-2 rounded border transition duration-300 ease-in-out md:mb-3 ${tab !== 6 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
                   href="#0"
                   onClick={(e) => { e.preventDefault(); setTab(6); }}
                 >
@@ -269,7 +268,7 @@ function Features() {
                   </div>
                 </a>
                 <a
-                  className={`flex justify-between items-center text-lg col-span-2 p-5 rounded border transition duration-300 ease-in-out md:mb-3 ${tab !== 7 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
+                  className={`flex justify-between items-center text-sm sm:text-lg col-span-2 sm:p-5 rounded border transition duration-300 ease-in-out md:mb-3 ${tab !== 7 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
                   href="#0"
                   onClick={(e) => { e.preventDefault(); setTab(7); }}
                 >
@@ -283,9 +282,6 @@ function Features() {
                 </a>
               </div>
             </div>
-
-            
-
           </div >
 
         </div >
