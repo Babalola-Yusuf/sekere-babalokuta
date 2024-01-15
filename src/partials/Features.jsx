@@ -46,6 +46,7 @@ function Features() {
           </div>
 
           {/* Section content */}
+
           <div className="md:pr-4 lg:pr-12 xl:pr-16 mb-8 text-center">
                 <h3 className="h3 mb-3">LET’S TALK BUSINESS.</h3>
                 <p className="text-xl text-gray-600">AREAS OF ECONOMIC ADVANTAGE.</p>
@@ -169,7 +170,7 @@ function Features() {
               </div>
             </div >
             {/* Content */}
-            <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6" data-aos="fade-right">
+            <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6 " data-aos="fade-right">
               
             
 
