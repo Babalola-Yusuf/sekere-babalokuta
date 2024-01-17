@@ -3,6 +3,15 @@ import React from 'react';
 import Header from '../partials/Header';
 import Banner from '../partials/Banner';
 
+import agroBussiness from '../images/agroBusinessImg.jpg';
+import tourism from "../images/tourism.png";
+import infrastructure from '../images/infrastructure.png';
+import realEstate from '../images/real estate.png';
+import manufacturing from '../images/manufacturing.webp';
+import economy from '../images/economy.webp';
+import religiousInstitution from '../images/mosque-church.png';
+
+
 function Business() {
   return (
     <div className="flex flex-col min-h-screen overflow-hidden">
@@ -36,7 +45,7 @@ function Business() {
               {/* Image Container */}
               <div className=" md:mb-0 mb-4">
                 <img
-                  src={`https://placekitten.com/200/200?random=1`}
+                  src={agroBussiness}
                   alt={`Image 1`}
                   className="w-full h-48 object-cover object-center rounded-md"
                 />
@@ -74,7 +83,7 @@ function Business() {
               {/* Image Container */}
               <div className="md:w-1/2 md:mb-0 mb-4">
                 <img
-                  src={`https://placekitten.com/200/200?random=1`}
+                  src={tourism}
                   alt={`Image 1`}
                   className="w-full h-48 object-cover object-center rounded-md"
                 />
@@ -101,7 +110,7 @@ function Business() {
               {/* Image Container */}
               <div className=" md:mb-0 mb-4">
                 <img
-                  src={`https://placekitten.com/200/200?random=1`}
+                  src={realEstate}
                   alt={`Image 1`}
                   className="w-full h-48 object-cover object-center rounded-md"
                 />
@@ -136,7 +145,7 @@ function Business() {
               {/* Image Container */}
               <div className=" md:mb-0 mb-4">
                 <img
-                  src={`https://placekitten.com/200/200?random=1`}
+                  src={manufacturing}
                   alt={`Image 1`}
                   className="w-full h-48 object-cover object-center rounded-md"
                 />
@@ -179,7 +188,7 @@ function Business() {
               {/* Image Container */}
               <div className=" md:mb-0 mb-4">
                 <img
-                  src={`https://placekitten.com/200/200?random=1`}
+                  src={infrastructure}
                   alt={`Image 1`}
                   className="w-full h-48 object-cover object-center rounded-md"
                 />
@@ -218,7 +227,7 @@ function Business() {
               {/* Image Container */}
               <div className=" md:mb-0 mb-4">
                 <img
-                  src={`https://placekitten.com/200/200?random=1`}
+                  src={economy}
                   alt={`Image 1`}
                   className="w-full h-48 object-cover object-center rounded-md"
                 />
@@ -255,7 +264,7 @@ function Business() {
               {/* Image Container */}
               <div className="md:mb-0 mb-4">
                 <img
-                  src={`https://placekitten.com/200/200?random=1`}
+                  src={religiousInstitution}
                   alt={`Image 1`}
                   className="w-full h-48 object-cover object-center rounded-md"
                 />
