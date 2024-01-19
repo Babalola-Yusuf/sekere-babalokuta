@@ -1,4 +1,5 @@
 import React from 'react';
+import baale from "../images/baale.jpg";
 import realEstate from '../images/real estate.png';
 function FeaturesBlocks() {
   return (
@@ -23,7 +24,7 @@ function FeaturesBlocks() {
             {/* 1st item */}
             <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
             <div className='p-2 rounded-full h-40 w-40 bg-yellow-400'>  
-                <img src={realEstate} alt="" className='rounded-full h-full w-full'/>
+                <img src={baale} alt="" className='rounded-full h-full w-full'/>
               </div>
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">THE BAALE OF BABALOKUTA</h4>
               <p className="text-gray-600 text-center">CHIEF BOLANLE RAMONI BABALOLA.</p>
