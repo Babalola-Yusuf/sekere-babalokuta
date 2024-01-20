@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import logo from '../images/sekere2.png';
 
 function Header() {
 
@@ -23,16 +24,7 @@ function Header() {
           <div className="flex-shrink-0 mr-4 ">
             {/* Logo */}
             <Link to="/" className="block" aria-label="Cruip">
-              <svg className="w-8 h-8" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-                <defs>
-                  <radialGradient cx="21.152%" cy="86.063%" fx="21.152%" fy="86.063%" r="79.941%" id="header-logo">
-                    <stop stopColor="#4FD1C5" offset="0%" />
-                    <stop stopColor="#81E6D9" offset="25.871%" />
-                    <stop stopColor="#338CF5" offset="100%" />
-                  </radialGradient>
-                </defs>
-                <rect width="32" height="32" rx="16" fill="url(#header-logo)" fillRule="nonzero" />
-              </svg>
+              <img src={logo} alt="logo" className='h-10 w-10' />
             </Link>
           </div>
 
@@ -46,7 +38,7 @@ function Header() {
                 <Link to="/about-us" className="font-medium text-gray-600 hover:text-gray-900 px-2 py-3 flex items-center transition duration-150 ease-in-out">About us</Link>
               </li>
               <li>
-                <Link to="/signin" className="font-medium text-gray-600 hover:text-gray-900 px-2 py-3 flex items-center transition duration-150 ease-in-out">Sign in</Link>
+                <Link to="/business" className="font-medium text-gray-600 hover:text-gray-900 px-2 py-3 flex items-center transition duration-150 ease-in-out">Partnership</Link>
               </li>
               <li>
                 <Link to="/signup" className="btn-sm text-gray-200 bg-gray-900 hover:bg-gray-800 ml-3">

@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Header from '../partials/Header';
+import Footer from '../partials/Footer';
 import Banner from '../partials/Banner';
 
 function AboutUs() {
@@ -52,6 +53,8 @@ Chief Bolanle Ramoni Babalola..</p>
       </main>
 
       <Banner />
+        {/*  Site footer */}
+      <Footer />
 
     </div>
   );
