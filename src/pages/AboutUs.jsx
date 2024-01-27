@@ -19,7 +19,7 @@ function AboutUs() {
             <div className="pt-32 pb-12 md:pt-40 md:pb-20 ">
 
               {/* Page header */}
-              <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20 ">
+              <div className="max-w-3xl mx-auto text-center p-1 pb-12 md:pb-20 md:p-3 rounded-lg border-solid border-2">
                 <h1 className="h1 mb-4">About Us</h1>
                 <p className="text-xl text-gray-600">It gladdens my heart to welcome your honour to Babalokuta/Sekere Town official website. Our aim is to bring to your fingertip, information about opportunities that abound at Babalokuta/ Sekere Town, located in Iberekodo, Igboora, Ibarapa Central Local Government, Oyo State, Nigeria. 
 This website will create express link for indigenes of our town all over the world. It will further serve as a window to public for investments’ opportunities, community development, commerce and industries, leisure and tourism. It is our belief that, if we explore both human, natural and capital resources that available in Babalokuta/Sekere Town, it will bring about partnership that works in terms of establishment of economic institutions, business organizations, youths empowerments initiatives and recognition of traditional institutions for the mutual benefits of all parties and for the total wellbeing of humanity.

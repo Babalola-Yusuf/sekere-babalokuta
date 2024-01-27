@@ -2,6 +2,7 @@ import React from 'react';
 
 import Header from '../partials/Header';
 import Banner from '../partials/Banner';
+import Footer from '../partials/Footer';
 
 import agroBussiness from '../images/agroBusinessImg.jpg';
 import tourism from "../images/tourism.png";
@@ -311,7 +312,8 @@ function Business() {
       </main>
 
       <Banner />
-
+ {/*  Site footer */}
+ <Footer />
     </div>
   );
 }
