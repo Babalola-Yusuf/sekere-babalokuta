@@ -173,7 +173,7 @@ function Features() {
             
 
               {/* Tabs buttons */}
-              <div className=" mb-8 md:mb-0 md:max-w-2xl grid grid-cols-2 gap-3 mt-3 bg-yellow-300">
+              <div className=" mb-8 md:mb-0 md:max-w-2xl grid grid-cols-2 gap-3 mt-3 ">
                 <a
                   className={`flex justify-between items-center text-sm sm:text-lg pl-2 sm:p-5 rounded-2xl  border transition duration-300 ease-in-out mb-0 md:mb-3 ${tab !== 1 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent pl-3'}`}
                   href="#0"
