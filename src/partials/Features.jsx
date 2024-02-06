@@ -173,9 +173,9 @@ function Features() {
             
 
               {/* Tabs buttons */}
-              <div className=" mb-8 md:mb-0 md:max-w-2xl grid grid-cols-2 gap-3">
+              <div className=" mb-8 md:mb-0 md:max-w-2xl grid grid-cols-2 gap-3 mt-3 bg-yellow-300">
                 <a
-                  className={`flex justify-between items-center text-sm sm:text-lg sm:p-5 rounded border transition duration-300 ease-in-out mb-0 md:mb-3 ${tab !== 1 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
+                  className={`flex justify-between items-center text-sm sm:text-lg pl-2 sm:p-5 rounded-2xl  border transition duration-300 ease-in-out mb-0 md:mb-3 ${tab !== 1 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent pl-3'}`}
                   href="#0"
                   onClick={(e) => { e.preventDefault(); setTab(1); }}
                 >
@@ -184,14 +184,14 @@ function Features() {
                     <div className="text-gray-600 bg-white">                     
                     </div>
                   </div>
-                 {  <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
+                 {  <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3 hover:bg-green-300">
                     <Link to="/business">
-                    <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512"><path opacity="1" fill="#1E3050" d="M470.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 256 265.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160zm-352 160l160-160c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L210.7 256 73.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0z"/></svg>
+                    <i class="fa-solid fa-angles-right fa-fade"></i>
                     </Link>
                   </div> }
                 </a>
                 <a
-                  className={`flex justify-between items-center text-sm sm:text-lg sm:p-5 rounded border transition duration-300 ease-in-out mb-0 md:mb-3 ${tab !== 2 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
+                  className={`flex justify-between items-center text-sm sm:text-lg pl-2 sm:p-5 rounded-2xl border transition duration-300 ease-in-out mb-0 md:mb-3 ${tab !== 2 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg ' : 'bg-gray-200 border-transparent pl-3'}`}
                   href="#0"
                   onClick={(e) => { e.preventDefault(); setTab(2); }}
                 >
@@ -199,15 +199,15 @@ function Features() {
                     <div className="font-bold leading-snug tracking-tight mb-1">TOURISM</div>
                     <div className="text-gray-600"></div>
                   </div>
-                  <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
+                  <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3 hover:bg-green-300">
                     <Link to="/business">
-                    <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512"><path opacity="1" fill="#1E3050" d="M470.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 256 265.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160zm-352 160l160-160c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L210.7 256 73.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0z"/></svg>
+                    <i class="fa-solid fa-angles-right fa-fade"></i>
                     </Link>
                   </div>
 
                 </a>
                 <a
-                  className={`flex justify-between items-center text-sm sm:text-lg sm:p-5 rounded border transition duration-300 ease-in-out md:mb-3 ${tab !== 3 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
+                  className={`flex justify-between items-center text-sm sm:text-lg pl-2 sm:p-5 rounded-2xl border transition duration-300 ease-in-out md:mb-3 ${tab !== 3 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent pl-3'}`}
                   href="#0"
                   onClick={(e) => { e.preventDefault(); setTab(3); }}
                 >
@@ -215,14 +215,14 @@ function Features() {
                     <div className="font-bold leading-snug tracking-tight mb-1">REAL ESTATE</div>
                     <div className="text-gray-600"></div>
                   </div>
-                  <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
+                  <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3 hover:bg-green-300">
                     <Link to="/business">
-                    <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512"><path opacity="1" fill="#1E3050" d="M470.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 256 265.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160zm-352 160l160-160c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L210.7 256 73.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0z"/></svg>
+                    <i class="fa-solid fa-angles-right fa-fade"></i>
                     </Link>
                   </div>
                 </a>
                 <a
-                  className={`flex justify-between items-center text-sm sm:text-lg sm:p-5 rounded border transition duration-300 ease-in-out md:mb-3 ${tab !== 4 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
+                  className={`flex justify-between items-center text-sm sm:text-lg pl-2 sm:p-5 rounded-2xl border transition duration-300 ease-in-out md:mb-3 ${tab !== 4 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent pl-3'}`}
                   href="#0"
                   onClick={(e) => { e.preventDefault(); setTab(4); }}
                 >
@@ -230,14 +230,14 @@ function Features() {
                     <div className="font-bold leading-snug tracking-tight mb-1">MANUFACTURING</div>
                     <div className="text-gray-600"></div>
                   </div>
-                  <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
+                  <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3 hover:bg-green-300">
                     <Link to="/business">
-                    <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512"><path opacity="1" fill="#1E3050" d="M470.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 256 265.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160zm-352 160l160-160c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L210.7 256 73.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0z"/></svg>
+                    <i class="fa-solid fa-angles-right fa-fade"></i>
                     </Link>
                   </div>
                 </a>
                 <a
-                  className={`flex justify-between items-center text-sm sm:text-lg sm:p-5 col-span-2 rounded border transition duration-300 ease-in-out md:mb-3 ${tab !== 5 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
+                  className={`flex justify-between items-center text-sm sm:text-lg pl-2 sm:p-5 col-span-2 rounded-2xl border transition duration-300 ease-in-out md:mb-3 ${tab !== 5 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent pl-3'}`}
                   href="#0"
                   onClick={(e) => { e.preventDefault(); setTab(5); }}
                 >
@@ -245,14 +245,14 @@ function Features() {
                     <div className="font-bold leading-snug tracking-tight mb-1 ">SOFT AND HARD INFRASTRUCTURE</div>
                     <div className="text-gray-600"></div>
                   </div>
-                  <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
+                  <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3 hover:bg-green-300">
                     <Link to="/business">
-                    <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512"><path opacity="1" fill="#1E3050" d="M470.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 256 265.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160zm-352 160l160-160c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L210.7 256 73.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0z"/></svg>
+                    <i class="fa-solid fa-angles-right fa-fade"></i>
                     </Link>
                   </div>
                 </a>
                 <a
-                  className={`flex justify-between items-center text-sm sm:text-lg sm:p-5 col-span-2 rounded border transition duration-300 ease-in-out md:mb-3 ${tab !== 6 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
+                  className={`flex justify-between items-center text-sm sm:text-lg pl-2 sm:p-5 col-span-2 rounded-2xl border transition duration-300 ease-in-out md:mb-3 ${tab !== 6 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent pl-3'}`}
                   href="#0"
                   onClick={(e) => { e.preventDefault(); setTab(6); }}
                 >
@@ -260,14 +260,14 @@ function Features() {
                     <div className="font-bold leading-snug tracking-tight mb-1">SUPPLY BASED ECONOMY AND KNOWLEDGE DRIVEN ECONOMY</div>
                     <div className="text-gray-600"></div>
                   </div>
-                  <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
+                  <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3 hover:bg-green-300">
                     <Link to="/business">
-                    <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512"><path opacity="1" fill="#1E3050" d="M470.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 256 265.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160zm-352 160l160-160c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L210.7 256 73.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0z"/></svg>
+                    <i class="fa-solid fa-angles-right fa-fade"></i>
                     </Link>
                   </div>
                 </a>
                 <a
-                  className={`flex justify-between items-center text-sm sm:text-lg col-span-2 sm:p-5 rounded border transition duration-300 ease-in-out md:mb-3 ${tab !== 7 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
+                  className={`flex justify-between items-center text-sm sm:text-lg col-span-2 pl-2 sm:p-5 rounded-2xl border transition duration-300 ease-in-out md:mb-3 ${tab !== 7 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent pl-3'}`}
                   href="#0"
                   onClick={(e) => { e.preventDefault(); setTab(7); }}
                 >
@@ -275,8 +275,10 @@ function Features() {
                     <div className="font-bold leading-snug tracking-tight mb-1">PARTNERSHIP FOR RELIGIOUS AND TRADITIONAL INSTITUTIONS</div>
                     <div className="text-gray-600"></div>
                   </div>
-                  <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
-                    <Link to="/about-us"><svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512"><path opacity="1" fill="#1E3050" d="M470.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 256 265.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160zm-352 160l160-160c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L210.7 256 73.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0z"/></svg></Link>
+                  <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3 hover:bg-green-300">
+                    <Link to="/about-us">
+                    <i class="fa-solid fa-angles-right fa-fade"></i>
+                    </Link>
                   </div>
                 </a>
               </div>
