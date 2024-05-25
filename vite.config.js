@@ -11,7 +11,7 @@ export default defineConfig({
     postcss,
   },
   plugins: [react()],
-  base: '/sekere-babalokuta/',
+  /* base: '/sekere-babalokuta/', */
   resolve: {
     alias: [
       {
