@@ -4,15 +4,15 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  define: {
+  /* define: {
     'process.env': process.env
-  },
+  }, */
   css: {
     postcss,
   },
   plugins: [react()],
-   base: '/sekere-babalokuta/', 
-  resolve: {
+/*    base: '/sekere-babalokuta/',  */
+  /* resolve: {
     alias: [
       {
         find: /^~.+/,
@@ -26,5 +26,5 @@ export default defineConfig({
     commonjsOptions: {
       transformMixedEsModules: true,
     }
-  } 
+  } */ 
 })
